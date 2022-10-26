@@ -120,7 +120,7 @@ enum dungeon
     //Vault = 107 stormwind vault (unused)
 };
 
-uint32 gossip_text = 601083;
+uint32 gossip_text = 197760;
 
 // Add player scripts
 class DungeonMaster : public CreatureScript
@@ -148,7 +148,7 @@ public:
 
     bool OnGossipSelect(Player* player, Creature* creature, uint32 Sender, uint32 areaid)
     {
-
+        player->PlayerTalkClass->ClearMenus();
         if (areaid < 20)
         {
             switch (areaid)
