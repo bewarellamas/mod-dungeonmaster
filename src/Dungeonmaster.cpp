@@ -244,7 +244,7 @@ public:
                 break;
 
             case RAID_WOTLK:
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Nazzramas", GOSSIP_SENDER_MAIN, Naxx);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Naxxramas", GOSSIP_SENDER_MAIN, Naxx);
                 AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Obsidian Sanctum", GOSSIP_SENDER_MAIN, OS);
                 AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Vault of Archavon", GOSSIP_SENDER_MAIN, VOA);
                 AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Eye of Eternity", GOSSIP_SENDER_MAIN, EOE);
