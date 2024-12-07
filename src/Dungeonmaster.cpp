@@ -58,6 +58,7 @@ enum dungeon
     AQ40 = 4010,    //Ahn'Qiraj
     MC = 3528,      //Molten Core
     BWL = 3726,     //Blackwing Lair
+    ZG = 3928,      //Zul'Gurub
 
     //Burning Crusade Dungeons
     Ramps = 4150,   //Hellfire Ramparts
@@ -191,6 +192,7 @@ public:
                 AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Blackwing Lair", GOSSIP_SENDER_MAIN, BWL);
                 AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Ruins of Ahn'Qiraj", GOSSIP_SENDER_MAIN, AQ20);
                 AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Ahn'Qiraj", GOSSIP_SENDER_MAIN, AQ40);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Zul'Gurub", GOSSIP_SENDER_MAIN, ZG);
                 break;
 
             case DUNGEON_BC:
